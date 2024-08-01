@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		12DF5AA02245EA2860770206 /* Pods_FinalProjectBM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F327BB51270A4D9FBD956DBB /* Pods_FinalProjectBM.framework */; };
 		207EBD932C5A6D2000179F7D /* Inter_24pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 207EBD922C5A6D1F00179F7D /* Inter_24pt-Regular.ttf */; };
+		20A2B1392C5C0CF80078AF7E /* AddCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2B1382C5C0CF80078AF7E /* AddCard.swift */; };
 		20E48A5F2C5BE6E6005A3927 /* ImageExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E48A5E2C5BE6E6005A3927 /* ImageExtention.swift */; };
-		20F1B2052C5BA53E00601FEA /* FirstVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B2042C5BA53E00601FEA /* FirstVc.swift */; };
 		20F1B2082C5BB38200601FEA /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B2072C5BB38200601FEA /* CustomInputView.swift */; };
 		20F1B20A2C5BB3A900601FEA /* CustomInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F1B2092C5BB3A900601FEA /* CustomInputView.xib */; };
 		20F1B20C2C5BB89000601FEA /* InputViewUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B20B2C5BB89000601FEA /* InputViewUiModel.swift */; };
@@ -25,8 +25,8 @@
 		111D2AB223C3D97CA211B065 /* Pods-FinalProjectBM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectBM.release.xcconfig"; path = "Target Support Files/Pods-FinalProjectBM/Pods-FinalProjectBM.release.xcconfig"; sourceTree = "<group>"; };
 		1F20AF601E7FBC819C3B7CB1 /* Pods-FinalProjectBM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectBM.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectBM/Pods-FinalProjectBM.debug.xcconfig"; sourceTree = "<group>"; };
 		207EBD922C5A6D1F00179F7D /* Inter_24pt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter_24pt-Regular.ttf"; path = "../../../Downloads/Inter/static/Inter_24pt-Regular.ttf"; sourceTree = "<group>"; };
+		20A2B1382C5C0CF80078AF7E /* AddCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCard.swift; sourceTree = "<group>"; };
 		20E48A5E2C5BE6E6005A3927 /* ImageExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtention.swift; sourceTree = "<group>"; };
-		20F1B2042C5BA53E00601FEA /* FirstVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVc.swift; sourceTree = "<group>"; };
 		20F1B2072C5BB38200601FEA /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 		20F1B2092C5BB3A900601FEA /* CustomInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInputView.xib; sourceTree = "<group>"; };
 		20F1B20B2C5BB89000601FEA /* InputViewUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewUiModel.swift; sourceTree = "<group>"; };
@@ -60,6 +60,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		20A2B13A2C5C0D4E0078AF7E /* AddCard */ = {
+			isa = PBXGroup;
+			children = (
+				20A2B1382C5C0CF80078AF7E /* AddCard.swift */,
+			);
+			path = AddCard;
+			sourceTree = "<group>";
+		};
 		20E48A5D2C5BE6C0005A3927 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,14 +85,6 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
-		20F1B2032C5BA35700601FEA /* AddCard */ = {
-			isa = PBXGroup;
-			children = (
-				20F1B2042C5BA53E00601FEA /* FirstVc.swift */,
-			);
-			path = AddCard;
-			sourceTree = "<group>";
-		};
 		20F1B2062C5BB34100601FEA /* CustomInputView */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				657138A82C598EB9008F0919 /* AppDelegate.swift */,
+				20A2B13A2C5C0D4E0078AF7E /* AddCard */,
 				20E48A5D2C5BE6C0005A3927 /* Extentions */,
 				20946D592C5A6811002FB5F5 /* Fonts */,
 				20F1B2022C5BA2D200601FEA /* SignUp */,
-				20F1B2032C5BA35700601FEA /* AddCard */,
 				657138A72C598EB9008F0919 /* FinalProjectBM */,
 				657138A62C598EB9008F0919 /* Products */,
 				E16A1DF482FA718D6B0D9789 /* Pods */,
@@ -184,7 +184,7 @@
 				};
 			};
 			buildConfigurationList = 657138A02C598EB9008F0919 /* Build configuration list for PBXProject "FinalProjectBM" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -264,8 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E48A5F2C5BE6E6005A3927 /* ImageExtention.swift in Sources */,
+				20A2B1392C5C0CF80078AF7E /* AddCard.swift in Sources */,
 				657138AD2C598EB9008F0919 /* ViewController.swift in Sources */,
-				20F1B2052C5BA53E00601FEA /* FirstVc.swift in Sources */,
 				20F1B20C2C5BB89000601FEA /* InputViewUiModel.swift in Sources */,
 				20F1B2082C5BB38200601FEA /* CustomInputView.swift in Sources */,
 				657138A92C598EB9008F0919 /* AppDelegate.swift in Sources */,
@@ -421,8 +421,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,8 +451,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
