@@ -15,7 +15,6 @@ class SignUpVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         backGroundView.addGradientWithColor(view: self.view)
-        
     }
     @IBAction func buttonAction(_ sender: Any) {
         let controller = CountrySelectVC()
