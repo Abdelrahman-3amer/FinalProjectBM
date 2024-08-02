@@ -10,6 +10,7 @@
 		12DF5AA02245EA2860770206 /* Pods_FinalProjectBM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F327BB51270A4D9FBD956DBB /* Pods_FinalProjectBM.framework */; };
 		207EBD932C5A6D2000179F7D /* Inter_24pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 207EBD922C5A6D1F00179F7D /* Inter_24pt-Regular.ttf */; };
 		20A2B1392C5C0CF80078AF7E /* AddCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A2B1382C5C0CF80078AF7E /* AddCard.swift */; };
+		20CF066E2C5C559400881A6C /* AccountConnected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF066D2C5C559400881A6C /* AccountConnected.swift */; };
 		20E48A5F2C5BE6E6005A3927 /* ImageExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E48A5E2C5BE6E6005A3927 /* ImageExtention.swift */; };
 		20F1B2082C5BB38200601FEA /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B2072C5BB38200601FEA /* CustomInputView.swift */; };
 		20F1B20A2C5BB3A900601FEA /* CustomInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F1B2092C5BB3A900601FEA /* CustomInputView.xib */; };
@@ -26,6 +27,7 @@
 		1F20AF601E7FBC819C3B7CB1 /* Pods-FinalProjectBM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectBM.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectBM/Pods-FinalProjectBM.debug.xcconfig"; sourceTree = "<group>"; };
 		207EBD922C5A6D1F00179F7D /* Inter_24pt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter_24pt-Regular.ttf"; path = "../../../Downloads/Inter/static/Inter_24pt-Regular.ttf"; sourceTree = "<group>"; };
 		20A2B1382C5C0CF80078AF7E /* AddCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCard.swift; sourceTree = "<group>"; };
+		20CF066D2C5C559400881A6C /* AccountConnected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnected.swift; sourceTree = "<group>"; };
 		20E48A5E2C5BE6E6005A3927 /* ImageExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtention.swift; sourceTree = "<group>"; };
 		20F1B2072C5BB38200601FEA /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 		20F1B2092C5BB3A900601FEA /* CustomInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInputView.xib; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				20A2B1382C5C0CF80078AF7E /* AddCard.swift */,
+				20CF066D2C5C559400881A6C /* AccountConnected.swift */,
 			);
 			path = AddCard;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				20F1B20C2C5BB89000601FEA /* InputViewUiModel.swift in Sources */,
 				20F1B2082C5BB38200601FEA /* CustomInputView.swift in Sources */,
 				657138A92C598EB9008F0919 /* AppDelegate.swift in Sources */,
+				20CF066E2C5C559400881A6C /* AccountConnected.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

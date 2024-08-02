@@ -18,4 +18,5 @@ public enum keyBoardTextField {
     case passward
     case email
     case none
+    case creditCardNo
 }

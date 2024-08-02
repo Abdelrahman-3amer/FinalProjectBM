@@ -77,6 +77,9 @@ class CustomInputView: UIView {
         case .none:
             inputTextField.textContentType = .none
             inputTextField.isSecureTextEntry = false
+        case .creditCardNo:
+            inputTextField.textContentType = .creditCardNumber
+            inputTextField.isSecureTextEntry = false
             
         }
     }

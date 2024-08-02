@@ -82,7 +82,7 @@ class ViewController: UIViewController {
     
     private func setUpInputViews() {
         
-        let profileViewUiModel = InputViewUiModel(titleLabel: "Full Name", placeHolder: "Enter your Full Name", imageName: "user 1", inputType: .none)
+        let profileViewUiModel = InputViewUiModel(titleLabel: "Full Name", placeHolder: "Enter your Full Name", imageName: "user 1")
         fullNameInputView.model = profileViewUiModel
         
         let emailViewUiModel = InputViewUiModel(titleLabel: "Email", placeHolder: "Enter your email address", imageName: "email 1", inputType: .email)
